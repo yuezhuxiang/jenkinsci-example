@@ -1,9 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('Default') {
+        stage('bugfix') {
             steps {
                 echo('bugfix')
+                echo('another echo')
             }
         }
     }
