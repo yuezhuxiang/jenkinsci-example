@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'standard-tools'
-    }
+    agent any
     stages {
         stage('Default') {
             steps {
