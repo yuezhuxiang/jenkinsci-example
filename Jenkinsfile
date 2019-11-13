@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Default') {
             steps {
-                echo('master')
+                echo('bugfix')
             }
         }
     }
