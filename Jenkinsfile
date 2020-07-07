@@ -6,6 +6,11 @@ pipeline {
                 echo('bugfix')
                 echo('another echo')
             }
+        stage('test') {
+            steps {
+                echo('testing')
+                echo('another echo')
+            }
         }
     }
 }
